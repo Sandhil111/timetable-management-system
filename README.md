@@ -1,55 +1,111 @@
 # Timetable Management System
 
-A web-based Timetable Management System developed using React.js. The application allows administrators to manage subjects, teachers, students, and automatically generate class timetables.
+A full-stack web application designed to automate and simplify timetable management for educational institutions. The system allows administrators to manage subjects, teachers, students, and generate class timetables efficiently.
 
 ## Features
 
-- User Authentication
-- Subject Management
+- Secure Admin Dashboard
+- Subject Management (Add, Edit, Delete)
 - Teacher Management
 - Student Management
-- Automatic Timetable Generation
-- Semester-wise Timetable Organization
-- Dynamic CRUD Operations
+- Automated Timetable Generation
+- Class-wise Timetable View
+- Teacher Allocation System
+- Absence & Substitution Management
 - Responsive User Interface
+- MongoDB Database Integration
+- RESTful API Architecture
 
 ## Technologies Used
 
+### Frontend
 - React.js
 - JavaScript (ES6+)
 - HTML5
 - CSS3
+
+### Backend
 - Node.js
-- Git & GitHub
+- Express.js
 
-## Modules
+### Database
+- MongoDB
+- Mongoose
 
-### Subject Management
-- Add new subjects
-- Edit existing subjects
-- Delete subjects
-- Semester-wise subject allocation
-
-### Teacher Management
-- Add teacher details
-- Assign subjects to teachers
-- Update and remove teacher information
-
-### Student Management
-- Add and manage student records
-- Class-wise student organization
-
-### Timetable Generation
-- Automatic timetable generation
-- Subject and teacher allocation
-- Semester-wise timetable display
+### Tools
+- Git
+- GitHub
+- VS Code
 
 ## Project Structure
 
-```text
-src/
-├── App.js
-├── App.css
-├── index.js
-public/
-├── index.html
+```
+timetable-management-system
+│
+├── src/
+│   ├── Components
+│   ├── Pages
+│   ├── App.js
+│   └── Styles
+│
+├── timetable-backend/
+│   ├── models
+│   ├── routes
+│   ├── server.js
+│   └── package.json
+│
+├── public/
+├── README.md
+└── package.json
+```
+
+## Key Functionalities
+
+### Subject Management
+Manage academic subjects along with credits and semester details.
+
+### Teacher Management
+Maintain teacher information and assign subjects.
+
+### Student Management
+Store and manage student records.
+
+### Automated Timetable Generation
+Generate conflict-free class timetables automatically based on available subjects and teachers.
+
+### Timetable Viewing
+View generated timetables class-wise in an organized format.
+
+## Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Full-Stack Web Development
+- React.js Application Development
+- REST API Development
+- MongoDB Database Operations
+- CRUD Functionality Implementation
+- State Management
+- Component-Based Architecture
+- Git & GitHub Version Control
+
+## Future Enhancements
+
+- Role-Based Authentication
+- Export Timetable as PDF
+- Teacher Workload Analytics
+- Advanced Conflict Detection
+- Attendance Management Module
+- Cloud Deployment
+
+## Author
+
+**Sandhil A**
+
+Final Year Engineering Student
+
+GitHub: https://github.com/Sandhil111
+
+## License
+
+This project is developed for educational and learning purposes.
